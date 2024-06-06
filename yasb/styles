@@ -1,0 +1,153 @@
+/* Red and blue and blurred kineme. Matches well with my wallpaper */
+/* Mclnoot */
+
+* {
+    /* Bar measurement icons: https://github.com/and3rson/graph-bars-font */
+    font-family: 'Cascadia Code NF', 'Segoe UI', 'Bars';
+    font-size: 14px;
+    color: #cdf0fa;
+}
+
+.bar {
+    background: rgba(35, 38, 52, 0);
+    /* border: 1px solid #eebebe; */
+    padding: 0 5px;
+}
+
+.container-right .widget {
+  margin: 2px;
+  border-radius: 5px;
+}
+
+.container-right .widget * {
+  color: #242424;
+}
+.komorebi-workspaces {
+  margin-left: 0;
+}
+.ws-btn {
+    padding: 5px;
+    background: rgba(60, 56, 54, 0.27);
+    /* border: 1px solid rgba(168, 153, 132, 0.4); */
+    margin: 2px 1px;
+    font-size: 12px;
+    border-radius: 3px;
+}
+
+.ws-btn:hover {
+    color: #fbcdc7;
+    font-weight: bold;
+}
+
+/* .ws-btn.populated {
+     border-color: rgba(168, 153, 132, 1.0); 
+} */
+
+.ws-btn.active {
+    background: rgba(251, 241, 199, 0.15);
+}
+
+.custom-widget {
+    padding: 2px 6px;
+    font-size: 14px;
+    /* background: #bdae93; */
+    color: #f5c6d4;
+    background: rgba(238, 166, 168, 0.420);
+}
+.custom-widget .icon {
+  font-size: 13px;
+}
+.custom-widget:hover {
+  background: #c7e8fb;
+}
+.custom-widget .icon.icon-left {
+    margin-right: 5px;
+}
+.custom-widget .icon.icon-right {
+    margin-left: 5px;
+}
+.custom-widget.hostname-widget {
+    background: #83a598;
+}
+
+.custom-widget.terminal-widget {
+    font-size: 14px;
+}
+
+.cpu-widget .label,
+.wifi-widget .label,
+.memory-widget .label,
+.traffic-widget .label,
+.battery-widget .label {
+  padding: 2px 5px;
+  font-size: 14px;
+  border-radius: 5px;
+  color: #f5c6d4;
+}
+
+.traffic-widget .label {
+    background: #85c1dc;
+}
+
+.wifi-widget .label {
+  background: #e5c890;
+}
+
+.cpu-widget .label {
+ /* background: #f4b8e4; */
+ color: #f5c6d4;
+ background: rgba(35, 38, 52, 0.26);
+}
+
+.battery-widget .label.status-critical {
+  background: #e78284;
+}
+.battery-widget .label.status-low {
+  background: #ef9f76;
+}
+.battery-widget .label.status-medium {
+  background: #e5c890;
+}
+.battery-widget .label.status-high {
+  background: #e5c890;
+}
+.battery-widget .label.status-full {
+  background: #8ec07c;
+}
+.battery-widget .label.status-charging {
+  background: #8ec07c;
+}
+.battery-widget,
+.memory-widget {
+  margin: 0;
+}
+
+.memory-widget .label.status-low {
+  background: #a6d189;
+}
+.memory-widget .label.status-medium {
+  background: #e5c890;
+}
+.memory-widget .label.status-high {
+  /* background: #ea999c; */
+  color: #e78284;
+  background: rgba(35, 38, 52, 0.26);
+}
+.active-window-widget {
+  margin-left: 5px;
+}
+.active-window-widget .label {
+  padding: -5px 7px 0 7px;
+  color: #f5c6d4;
+  /* background: #83a598; */
+  background: rgba(226, 152, 154, 0.1);
+  margin-bottom: -1px;
+  border-radius: 3px;
+  margin: 2px;
+}
+
+.komorebi-active-layout .label {
+  color: #f5c6d4;
+  margin: -4px 2px 2px 8px;
+  font-family: Hack;
+}
